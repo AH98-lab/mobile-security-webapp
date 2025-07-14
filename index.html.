@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فحص أمان الهاتف</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Logo" class="logo">
+    <h1>فحص أمان هاتفك الذكي</h1>
+    <p>اكتشف إذا كان جهازك مخترقًا أو معرضًا للخطر، واحصل على تقرير مفصل وتنبيهات فورية.</p>
+    <div class="actions">
+      <a href="signup.html" class="btn primary">ابدأ الآن مجانًا</a>
+      <a href="login.html" class="btn">تسجيل الدخول</a>
+    </div>
+  </div>
+</body>
+</html>
