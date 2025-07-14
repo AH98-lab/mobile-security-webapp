@@ -1,0 +1,82 @@
+body {
+  font-family: 'Tajawal', Arial, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+.container {
+  max-width: 380px;
+  margin: 48px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px #0001;
+  padding: 32px 24px;
+  text-align: center;
+}
+.logo {
+  width: 72px;
+  margin-bottom: 16px;
+}
+h1, h2 {
+  color: #222;
+  margin-bottom: 16px;
+}
+p {
+  color: #444;
+  margin-bottom: 24px;
+}
+.actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.btn {
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+  color: #0070f3;
+  background: #fff;
+  border: 1px solid #0070f3;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+.btn.primary {
+  background: #0070f3;
+  color: #fff;
+}
+.btn:hover {
+  background: #005bb5;
+  color: #fff;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+.dashboard-box {
+  background: #f5f6fa;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 16px;
+  box-shadow: 0 1px 4px #0001;
+}
+.switch-link {
+  margin-top: 16px;
+  color: #666;
+}
+.switch-link a {
+  color: #0070f3;
+  text-decoration: none;
+}
+.switch-link a:hover {
+  text-decoration: underline;
+}
